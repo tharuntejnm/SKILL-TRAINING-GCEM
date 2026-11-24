@@ -1,0 +1,141 @@
+'''import keyword
+print(keyword.kwlist)'''
+
+'''a=None
+print(a)'''
+
+'''a='GoodMorning'
+print(a)'''
+
+'''a="Happy Father's Day"
+print(a)'''
+
+'''a.append(10)
+print(a)'''
+
+'''a.remove(True)
+print(a)'''
+
+'''a.pop(0)
+print(a)'''
+
+
+'''a=(10)
+print(a,type(a))'''
+
+'''a={'a':10,'a':20}
+print(a.keys)'''
+
+'''a={'a':[10,20,30],'b':40}
+print(a['a'][-2])'''
+
+'''a='Hello'
+print(a[2:3+1:1])
+print(a[-3:-2+1:1])
+'''
+'''a="Good Morning"
+"rein"
+print(a[-2:-5:-1])'''
+
+'''a="Good Morning"
+print(a[1:5+1:2])
+print(a[5:12:3])
+print(a[-7::3])'''
+
+'''a=eval(input("enter:"))
+print(a,type(a))'''
+
+#else
+
+'''a=int(input("enter:"))
+if a%2==0:
+    print("even")
+else:
+    print("odd")'''
+
+'''a=int(input("enter:"))
+if a>0:
+    print("positive")
+else:
+    print("negative")'''
+
+'''a=int(input("enter:"))
+if a>5:
+    print("greater")
+else:
+    print("lesser")'''
+
+'''l=eval(input("enter list:"))
+if len(l)==5:
+    print("yes")
+else:
+    print("no")'''
+
+#elif
+
+'''ch=input("enter:")
+if "A" <=ch<="Z":
+    print("uppercase")
+elif "a" <=ch<="z":
+    print("lowercase")
+else:
+    print("not a letter")'''
+
+#nested if
+
+'''un=input("enter username:")
+if un=="hero":
+    pwd=input("enter password:")
+    if pwd=="hero123":
+        print("login successful")
+    else:
+        print("invalid password")'''
+
+#while loop
+
+'''i=1
+while i<=100:
+    print(i)
+    i+=1'''
+
+'''i=2
+while i<=50:
+    print(i)
+    i+=2'''
+
+'''n=int(input("enter num:"))
+rev=0
+while n>0:
+    ld=n%10
+    n=n//10
+    rev=rev*10+ld
+print(rev)'''
+
+'''l=[10,20,30]
+for i in l:
+    print(i)'''
+
+'''s=input("enter:")
+out=""
+for i in s:
+    if 'a'<=i<='z':
+        out+=i.upper()
+    elif 'A'<=i<='Z':
+        out+=i.lower()
+    else:
+        out+=i
+print(out)'''
+
+'''for i in range(1,6):
+    for j in range(1,6):
+        print('*',end="")
+    print()'''
+
+for i in range(1,6):
+    for j in range(1,6):
+        if i==j:
+            print('*',end="")
+        else:
+            print('@',end="")
+    print()
+       
